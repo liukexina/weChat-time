@@ -1,13 +1,56 @@
 {
-  "pages":[
+  "pages": [
+    "pages/main/main",
+    "pages/details2/details2",
+    "pages/details1/details1",
+    "pages/launch2/launch2",
+    "pages/select2/select2",
+    "pages/launch1/launch1",
+    "pages/select1/select1",
+    "pages/my/my",
+    "pages/share/share",
     "pages/index/index",
-    "pages/addCgi/addCgi"
+    "pages/addCgi/addCgi",
+    "pages/public/public"
+   
   ],
-  "window":{
-    "backgroundColor":"#F6F6F6",
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "Wafer Quick Start",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "0099FF",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "black",
+    "backgroundColor": "#f2f2f2",
+    "borderstyle": "black",
+    "selectedColor": "#0099FF",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "首页",
+        "iconPath": "image/首页(4).png",
+        "selectedIconPath": "image/首页(5).png"
+      },
+      {
+        "pagePath": "pages/public/public",
+        "text": "时间共享",
+        "iconPath": "image/时间(4).png",
+        "selectedIconPath": "image/时间(3).png"
+      },
+      {
+        "pagePath": "pages/share/share",
+        "text": "时间公益",
+        "iconPath": "image/公益中心(4).png",
+        "selectedIconPath": "image/公益中心(3).png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "image/我的(2).png",
+        "selectedIconPath": "image/我的(1).png"
+      }
+    ]
   }
 }
