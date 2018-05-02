@@ -1,0 +1,14 @@
+<!--pages/launch2/launch2.wxml-->
+<view class='upload-img'>
+   <image src="{{tempFilePaths }}" mode="aspecFill"></image> 
+  <!-- <image src="../image/timeo.jpg"></image> -->
+  <button bindtap="chooseimage">获取图片</button>   
+</view>
+<view class='launch1-content'>
+  <view class='content'>共享时间：<input type='date' class='content-input' placeholder='活动时间' placeholder-style="font-size:28rpx; color:#bfbfbf"></input></view>
+  <view class='content'>活动项目：<input type='date' class='content-input' placeholder='你的活动类型' placeholder-style="font-size:28rpx; color:#bfbfbf"></input></view>
+  <view class='content'>活动位置：<input type='date' class='content-input' placeholder='你的活动位置' placeholder-style="font-size:28rpx; color:#bfbfbf"></input></view>
+  <view class='content'>联系方式：<input type='date' class='content-input' placeholder='你的联系方式' placeholder-style="font-size:28rpx; color:#bfbfbf"></input></view>
+  <view class='content-special'>其他：<textarea type='date' class='content-input' placeholder='活动补充' placeholder-style="font-size:28rpx; color:#bfbfbf"></textarea></view>
+</view>
+<button class='launch1-but' bindtap='launchyes'>确定</button>

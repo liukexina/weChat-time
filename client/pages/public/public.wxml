@@ -1,0 +1,41 @@
+<!--pages/public/public.wxml-->
+<swiper indicator-dots="false"
+  autoplay="true" interval="2000" duration="500">
+    <swiper-item>
+      <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg' class="slide-image"></image>
+    </swiper-item>
+      <swiper-item>
+      <image src= 'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg' class="slide-image"></image>
+    </swiper-item>
+      <swiper-item>
+       <image src='http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg' class="slide-image"></image>
+     </swiper-item>
+    <swiper-item>
+      <image src='../image/miao.jpg' class="slide-image"></image>
+     </swiper-item>
+ </swiper>
+ <view class='share-titel'>
+   <text class='title-1' bindtap='select'>搜索</text>
+   <text class='title-2' bindtap='launch'>我要发起</text>
+ </view>
+<view class='share-eg'>
+   <view wx:for="{{List}}" class='share' wx:key="">   
+    <image src='{{item.logo}}' class='share-logo'></image>
+    <view class='share-content'>
+        <view class='first'>
+          <text class='content-title'>{{item.title}}</text>
+          <text class='content-size'>{{item.size}}</text>
+        </view>
+        <view >
+          <text>时间：{{item.time}}</text>
+        </view> 
+        <view>
+          <text class='content-user'>发起人：{{item.user}} </text>    
+          <text class='content-collect'>收藏</text>
+          <text class='content-details' bindtap='contant'>详情</text>
+       </view>
+     </view> 
+   </view>
+</view>
+
+

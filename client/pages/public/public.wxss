@@ -1,0 +1,80 @@
+/* pages/public/public.wxss */
+page {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.main-title{
+  background: #3399FF;
+  height:90rpx;
+  width:750rpx;
+  position:relative;
+  display: flex;
+  margin:0 auto;
+  padding-left:300rpx;
+}
+.main-title text{
+  display: flex;
+  justify-content: center;  
+  height:90rpx;
+  line-height:90rpx;
+  color:white;
+  font-size:40rpx;
+  font-weight:700;
+}
+.slide-image{
+  width:750rpx;
+  height:300rpx;
+}
+.share-titel{
+  height:80rpx;
+  border-bottom:1px solid black;
+}
+.title-1{
+  float:left;
+  padding-left:100rpx;
+  line-height:80rpx;
+  font-size:40rpx;
+}
+.title-2{
+  float:right;
+  padding-right:60rpx;
+  line-height:80rpx;
+  font-size:40rpx;
+}
+.share-eg{
+  background-color: white;
+}
+.share{
+  display:flex;
+  border-bottom:1px solid #F2F2F2;
+  font-size:28rpx;
+  padding-left:8rpx;
+}
+
+.share-logo{
+  height:150rpx;
+  width:180rpx;
+  padding:4rpx;
+}
+.share-content{
+  margin-top:10rpx;
+  padding:12rpx;
+  width:100%;
+}
+.content-size{
+  padding-left:40rpx;
+}
+.content-numsur{
+  color:red;
+  padding-left:40rpx;
+}
+.content-collect{
+  float:right;
+  padding-right:10rpx;
+}
+.content-details{
+  float:right;
+  margin-right:40rpx;
+}

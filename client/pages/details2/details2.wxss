@@ -1,0 +1,45 @@
+/* pages/details2/details2.wxss */.content-img{
+  height:340rpx;
+  display: flex;
+  border-bottom:1px solid #000;
+}
+.content-img image{
+  height: 300rpx;
+  width:310rpx;
+  margin:17rpx;
+  margin-left:40rpx;
+  display: block;
+}
+.content-img view{
+  padding-top:40rpx;
+  padding-left:10rpx;
+  font-size:35rpx;
+}
+.content-img text{
+  display: block;
+  padding:20rpx;
+}
+
+.content-main view text{
+  display: block;
+  font-size:30rpx;
+  padding:10rpx;
+}
+.main-one{
+  padding:40rpx;
+  height:650rpx;
+}
+.content-main button{
+  height:70rpx;
+  width:200rpx;
+  font-size:34rpx;
+  line-height: 70rpx;
+  background-color: #99CCFF;
+  float:left;
+  margin-left:60rpx;
+}
+.main-contant{
+  float:right;
+  margin-right:40rpx;
+  font-size:30rpx;
+}

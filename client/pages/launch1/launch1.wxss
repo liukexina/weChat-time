@@ -1,0 +1,54 @@
+/* pages/launch1/launch1.wxss */
+.upload-img{
+  height:260rpx;
+  background-color: #ffffff;
+  display: flex;
+  border-bottom:1px solid #000;
+
+}
+.upload-img button{
+  height:60rpx;
+  width:180rpx;
+  font-size:30rpx;
+  line-height:60rpx;
+  margin-top:100rpx;
+  border-bottom:1px solid #000;
+}
+.upload-img image{
+  height:220rpx;
+  width:240rpx;
+  margin:20rpx;
+  margin-left:80rpx;
+}
+.launch1-content{
+   background-color: #ffffff;
+   border-bottom:1px solid #000;
+}
+.content{
+  display:flex;
+  padding:10rpx;
+  margin-left:40rpx;
+  font-size:34rpx;
+  border-bottom:1px solid #f2f2f2;
+}
+.content-special{
+  padding:10rpx;
+  margin-left:40rpx;
+  font-size:34rpx;
+  height:230rpx;
+}
+.content-special textarea{
+  padding-top:10rpx;
+  height:190rpx;
+}
+.launch1-but{
+  height:80rpx;
+  width:400rpx;
+  font-size:36rpx;
+  line-height:80rpx;
+  color:white;
+  font-weight: 700;
+  background-color: #99CCFF;
+  display:block;
+  margin-top:30rpx;
+}

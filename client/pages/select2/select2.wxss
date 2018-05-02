@@ -1,0 +1,59 @@
+/* pages/select2/select2.wxss */
+.select{
+  border-bottom:1px solid #000;
+  height:90rpx;
+}
+.select-but{
+  background-color: #99ccff;
+  width:200rpx;
+  font-size:28rpx;
+  color:white;
+  font-weight: 700;
+  margin-left:40rpx;
+  margin-top:15rpx;
+}
+.select-content{
+   border-bottom:1px solid #000;
+}
+.select-content view{
+  display:flex;
+  padding:10rpx;
+  margin-left:40rpx;
+  font-size:34rpx;
+  border-bottom:1px solid #f2f2f2;
+}
+.share-eg{
+  background-color: white;
+}
+.share{
+  display:flex;
+  border-bottom:1px solid #F2F2F2;
+  font-size:28rpx;
+  padding-left:8rpx;
+}
+
+.share-logo{
+  height:150rpx;
+  width:180rpx;
+  padding:4rpx;
+}
+.share-content{
+  margin-top:10rpx;
+  padding:12rpx;
+  width:100%;
+}
+.content-size{
+  padding-left:40rpx;
+}
+.content-numsur{
+  color:red;
+  padding-left:40rpx;
+}
+.content-collect{
+  float:right;
+  padding-right:10rpx;
+}
+.content-details{
+  float:right;
+  margin-right:40rpx;
+}

@@ -1,0 +1,63 @@
+/* pages/my/my.wxss */
+page {
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.user-data{
+  height:240rpx;
+  background-color:white;
+  display:flex;
+}
+.user-data image{
+  height:200rpx;
+  width:220rpx;
+  margin-top:20rpx;
+  margin-left:50rpx;
+}
+.user{
+  padding-left:40rpx;
+}
+.user-name{
+  display:block;
+  margin-top:50rpx;
+}
+.user-contant{
+  display:block;
+  margin-top:40rpx;
+  font-size:30rpx;
+  color:#E4E4E4;
+  font-weight:900;
+}
+.collect{
+  margin-top:30rpx;
+  background-color: white;
+  height:90rpx;
+  font-size:28rpx;
+  margin-bottom:30rpx;
+}
+.collect-title{
+  padding-top:28rpx;
+  padding-left:50rpx;
+  float:left;
+}
+.collect image{
+  height:60rpx;
+  width:60rpx;
+  display:block;
+  margin-top:18rpx;
+  float:left;
+  padding-left:20rpx;
+}
+.actnum{
+  float:right;
+  padding-top:28rpx;
+  padding-right:20rpx;
+}
+.MY{
+  background-color: white;
+  height:90rpx;
+  font-size:28rpx;
+  border:1px solid #f2f2f2;
+}

@@ -1,0 +1,18 @@
+<!--pages/details1/details1.wxml-->
+<view class='content-img'>
+  <image src='{{logo}}'></image>
+  <view>
+    <text> 昵称：{{name}}</text>
+    <text>性别：{{sex}}</text>
+    <text>年龄：{{age}}</text>
+  </view>
+</view>
+<view class='content-main'>
+ <view>
+  <text>共享时间：{{time}}</text>
+  <text>活动项目：{{title}}</text>
+  <text>活动地点：{{size}}</text>
+  <text>其他：{{other}}</text>
+ </view>
+ <text class='main-contant'>联系方式：{{contant}}</text>
+</view>
