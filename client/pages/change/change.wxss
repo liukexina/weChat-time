@@ -1,0 +1,53 @@
+/* pages/change/change.wxss */
+page {
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.save{
+  margin-top:30rpx;
+  background-color: white;
+  height:80rpx;
+}
+.save button{
+  height:60rpx;
+  width:120rpx;
+  font-size:26rpx;
+  line-height: 60rpx;
+  margin-top:10rpx;
+  margin-left:20rpx;
+}
+.upload-img{
+  margin-top:30rpx;
+  height:300rpx;
+  background-color: #ffffff;
+  border-bottom: 1px solid #000;
+}
+.upload-img button{
+  height:50rpx;
+  width:180rpx;
+  font-size:30rpx;
+  line-height:50rpx;
+  border-bottom:1px solid #000;
+}
+.upload-img image{
+  height:220rpx;
+  width:240rpx;
+  margin-left:265rpx;
+}
+.data{
+  background-color: white;
+  border-bottom:1px solid #000;
+  padding-left:40rpx;
+}
+.data view{
+  border-bottom: 1px solid #f2f2f2;
+  display: flex;
+  font-size:34rpx;
+  padding:10rpx;
+}
+.radio-group{
+  margin-left:20rpx;
+  font-size:30rpx;
+}

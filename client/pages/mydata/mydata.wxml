@@ -1,0 +1,10 @@
+<!--pages/mydata/mydata.wxml-->
+<view class='one'>
+  <image src='{{logo}}'></image>
+  <text>昵称：{{user}}</text>
+</view>
+<view class='two'>
+  <text>性别：{{sex}}</text>
+  <text>年龄：{{age}}</text>
+  <text>联系方式：{{contant}}</text>
+</view>

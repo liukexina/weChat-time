@@ -1,0 +1,32 @@
+/* pages/submitname/submitname.wxss */
+.title-contant{
+  display: block;
+  margin:30rpx;
+  font-size:28rpx;
+}
+.title{
+  border-bottom: 1px solid #707070;
+}
+.content{
+  margin-top:40rpx;
+}
+.title-specil{
+  font-size:26rpx;
+  margin-left:30rpx;
+}
+.check{
+  padding-left:40rpx;
+  margin-top:20rpx;
+}
+.checkbox{
+  display: block;
+  font-size:26rpx;
+  padding-bottom:5rpx;
+}
+button{
+  float:right;
+  margin-right:30rpx;
+  height:60rpx;
+  line-height: 60rpx;
+  font-size:30rpx;
+}

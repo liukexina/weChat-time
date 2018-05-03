@@ -1,0 +1,13 @@
+<!--pages/submitname/submitname.wxml-->
+<view class='title'>
+  <text class='title-contant'>活动项目：{{title}}</text>
+  <text class='title-contant'>活动时间：{{time}}</text>
+  <text class='title-contant'>活动地点：{{size}}</text>
+</view>
+<text class='title-specil'>未按时参与人员名单：</text>
+<checkbox-group bindchange="checkboxChange" class='check'>
+  <label class="checkbox" wx:for="{{items}}" wx:key=''>
+    <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</checkbox-group>
+<button>完成</button>

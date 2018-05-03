@@ -1,0 +1,11 @@
+/* pages/setting/setting.wxss */
+text{
+  background-color: #f2f2f2;
+  height: 100rpx;
+  font-weight: 700;
+  font-size:30rpx;
+  display: block;
+  line-height: 100rpx;
+  padding-left:60rpx;
+  border-bottom:1px solid #000;
+}

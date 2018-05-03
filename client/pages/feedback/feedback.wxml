@@ -1,0 +1,4 @@
+<!--pages/feedback/feedback.wxml-->
+<text>意见反馈</text>
+ <textarea type='date' class='content-input' placeholder='您的意见' placeholder-style="font-size:28rpx; color:#bfbfbf"></textarea>
+ <button bindtap='launchyes'>提交</button>

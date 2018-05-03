@@ -1,0 +1,8 @@
+<!--pages/comment/comment.wxml-->
+<view class='comment'>
+ 我要评论：<input type='date' class='content-input' placeholder='你的评论' placeholder-style="font-size:28rpx; color:#bfbfbf"></input>
+ <button bindtap='contant'>提交</button>
+</view>
+<view wx:for='{{List}}' wx:key='' class='comment-contant'>
+  <view><text>{{item.name}}</text>：{{item.comment}}</view>
+</view>

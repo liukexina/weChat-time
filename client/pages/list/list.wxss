@@ -1,0 +1,26 @@
+/* pages/list/list.wxss */
+.title text{
+  display: block;
+  margin-top:40rpx;
+  margin-left:40rpx;
+}
+.content{
+  margin-top:40rpx;
+}
+.content text{
+  margin-left:40rpx;
+}
+image{
+  height:60rpx;
+  width:60rpx;
+}
+.content-name{
+  padding-left:40rpx;
+  padding-top:20rpx;
+  border-bottom:1px solid #f2f2f2;
+  height: 60rpx;
+}
+.name{
+  font-size:34rpx;
+  line-height: 60rpx;
+}

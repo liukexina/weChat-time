@@ -1,0 +1,12 @@
+<!--pages/list/list.wxml-->
+<view class='title'>
+  <text>活动名称：{{title}}</text>
+  <text>活动时间：{{time}}</text>
+</view>
+<view class='content'>
+  <text>报名名单:</text>
+  <view wx:for='{{List}}' wx:key='' class='content-name'> 
+   <image src='{{item.logo}}'></image>
+   <text class='name'>{{item.user}}</text>
+  </view>
+</view>

@@ -1,0 +1,25 @@
+/* pages/mydata/mydata.wxss */
+.one{
+  height:380rpx;
+  display: flex;
+  border-bottom:1px solid #000;
+}
+.one image{
+  height: 300rpx;
+  width:300rpx;
+  margin:40rpx;
+}
+.one text{
+  margin:40rpx;
+  margin-top:100rpx;
+}
+.two{
+  margin-top:30rpx;
+  margin-left:40rpx;
+}
+.two text{
+  display: block;
+  height: 150rpx;
+  margin-right:40rpx;
+  font-size:34rpx;
+}

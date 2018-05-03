@@ -1,0 +1,22 @@
+/* pages/feedback/feedback.wxss */
+text{
+  display: block;
+  margin:40rpx;
+  font-size: 30rpx;
+}
+.content-input{
+  height: 700rpx;
+  background-color: #e6e6e6;
+  margin-top:30rpx;
+  margin-left:40rpx;
+  width:670rpx;
+}
+button{
+  height:60rpx;
+  width:200rpx;
+  float:right;
+  margin-right:40rpx;
+  font-size: 34rpx;
+  line-height: 60rpx;
+  margin-top:40rpx;
+}

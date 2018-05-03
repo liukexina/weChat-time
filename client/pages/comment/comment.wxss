@@ -1,0 +1,35 @@
+/* pages/comment/comment.wxss */
+.comment{
+  padding-left:30rpx;
+  padding-top:30rpx;
+  padding-bottom:50rpx;
+  border-bottom:1px solid #000;
+}
+.content-input{
+  margin-top:20rpx;
+  margin-left:20rpx;
+  width:500rpx;
+  border:1px solid #f2f2f2;
+}
+.comment button{
+  height: 50rpx;
+  width:150rpx;
+  font-size:34rpx;
+  line-height: 50rpx;
+  float:right;
+  margin-right:30rpx;
+  margin-top:-52rpx;
+}
+.comment-contant{
+  border-bottom:1px solid #F2F2F2;
+}
+.comment-contant view{
+  height: 60rpx;
+  display: block;
+  line-height: 60rpx;
+  padding-left:30rpx;
+  font-size:30rpx;
+}
+.comment-contant view text{
+  color:red;
+}

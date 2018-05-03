@@ -1,0 +1,4 @@
+<!--pages/setting/settin.wxml-->
+ <text>常见问题</text>
+ <text bindtap='feedback'>意见反馈</text>
+

@@ -1,0 +1,20 @@
+<!--pages/details2/details2.wxml-->
+<view class='content-img'>
+  <image src='{{logo}}'></image>
+  <view>
+    <text>活动类型：{{title}}</text>
+    <text>发表学院：{{college}}</text>
+    <text>限制人数：{{numall}}</text>
+  </view>
+</view>
+<view class='content-main'>
+  <view class='main-one'>
+    <text>共享时间：{{time}}</text>
+    <text>活动地点：{{size}}</text>
+    <text>其他：{{other}}</text>
+  </view>
+  <view class='content-user'>
+    <text class='main-contant'>发起人：{{user}}</text>
+    <text class='main-contant'>联系方式：{{contant}}</text>
+  </view>
+</view>

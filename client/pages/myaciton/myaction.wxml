@@ -1,0 +1,54 @@
+<!--pages/myaciton/myaction.wxml-->
+<view class='topTabSwiper'>
+   <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}'  data-current = "0" bindtap='checkCurrent'>        时间共享活动
+  </view>
+  <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}'  data-current = "1" bindtap='checkCurrent'>
+    时间公益活动
+  </view>
+</view>
+<swiper current="{{currentData}}" class='swiper' style="height:600px;" duration="300" bindchange="bindchange">
+  <swiper-item>
+   <view class='share-eg'>
+    <view wx:for="{{List}}" class='share' wx:key="">   
+      <image src='{{item.logo}}' class='share-logo'></image>
+        <view class='share-content'>
+          <view class='first'>
+            <text class='content-title'>{{item.title}}</text>
+            <text class='content-size'>{{item.size}}</text>
+          </view>
+          <view >
+            <text>时间：{{item.time}}</text>
+          </view> 
+          <view>
+            <text class='content-details' bindtap='contant1'>详情</text>
+          </view>
+        </view> 
+      </view>
+    </view>
+  </swiper-item> 
+  <swiper-item>
+    <view class='share-eg'>
+    <view wx:for="{{List2}}" class='share' wx:key="">   
+      <image src='{{item.logo}}' class='share-logo2'></image>
+      <view class='share-content2'>
+          <view class='first'>
+            <text class='content-title'>{{item.title}}</text>
+            <text class='content-size'>{{item.size}}</text>
+          </view>
+          <view >
+            <text>时间：{{item.time}}</text>
+            </view> 
+          <view>
+            <text class='content-numall'>所需人数：{{item.numall}}</text>
+            <text class='content-numsur'>剩余名额：{{item.numsur}}</text>
+          </view>
+          <view>
+            <text class='content-collect' bindtap='list'>报名名单</text>     
+            <text class='content-details'  bindtap='contant2'>详情</text>
+          </view>
+        </view> 
+      </view>
+    </view>
+  </swiper-item>
+</swiper>
+
