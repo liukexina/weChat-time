@@ -1,6 +1,20 @@
 {
   "pages": [
     "pages/main/main",
+    "pages/swiper0/swiper0",
+    "pages/change/change",
+    "pages/submitname/submitname",
+    "pages/comment/comment",
+    "pages/list/list",
+    "pages/feedback/feedback",
+    "pages/setting/setting",
+    "pages/mydata/mydata",
+    "pages/join/join",
+    "pages/details3/details3",
+    "pages/details4/details4",
+    "pages/share/share",
+    "pages/myaciton/myaction",
+    "pages/collection/collection",
     "pages/details2/details2",
     "pages/details1/details1",
     "pages/launch2/launch2",
@@ -8,11 +22,9 @@
     "pages/launch1/launch1",
     "pages/select1/select1",
     "pages/my/my",
-    "pages/share/share",
     "pages/index/index",
     "pages/addCgi/addCgi",
     "pages/public/public"
-   
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -47,7 +59,7 @@
       },
       {
         "pagePath": "pages/my/my",
-        "text": "我的",
+        "text": "个人中心",
         "iconPath": "image/我的(2).png",
         "selectedIconPath": "image/我的(1).png"
       }

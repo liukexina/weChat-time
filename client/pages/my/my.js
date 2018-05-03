@@ -10,7 +10,36 @@ Page({
     sex:'男',
     actnum:10
     },
-
+  collection: function () {
+    wx.navigateTo({
+      url: '../collection/collection'
+    })
+  },
+  myaction: function () {
+    wx.navigateTo({
+      url: '../myaciton/myaction'
+    })
+  },
+  join: function () {
+    wx.navigateTo({
+      url: '../join/join'
+    })
+  },
+  mydata: function () {
+    wx.navigateTo({
+      url: '../mydata/mydata'
+    })
+  },
+  setting: function () {
+    wx.navigateTo({
+      url: '../setting/setting'
+    })
+  },
+  change: function () {
+    wx.navigateTo({
+      url: '../change/change'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

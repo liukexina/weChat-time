@@ -77,3 +77,8 @@ page {
   float:right;
   margin-right:40rpx;
 }
+.content-comment{
+  float:right;
+  margin-right:10rpx;
+  color:#707070;
+}

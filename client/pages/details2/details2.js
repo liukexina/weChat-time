@@ -11,9 +11,10 @@ Page({
     numall: '20',
     numsur: '10',
     size: "哈尔滨市图书馆",
-    user: "软件学院",
+    college: "软件学院",
     other:'没错就是这样！！！！！！！！！',
-    contant: '18846180523'
+    contant: '18846180523',
+    user:'Jasper'
   },
 
   /**

@@ -16,14 +16,14 @@
   size:240rpx;
   font-weight: 700;
   padding-left:30rpx;
-  margin-top:20rpx;
+  margin-top:30rpx;
 }
 .main-img1{
   height:380rpx;
   width:500rpx;
   display:flex;
   margin:0 auto;
-  margin-top:20rpx;
+  margin-top:40rpx;
 }
 .main-but{
   background: #99CCFF;
@@ -33,12 +33,12 @@
   line-height: 60rpx;
   height:60rpx;
   width:260rpx;
-  margin-top:30rpx;
+  margin-top:40rpx;
 }
 .main-view1{
-  margin-top:30rpx;
-  height:218rpx;
+  margin-top:20rpx;
   background-color:#F2F2F2;
+  overflow: hidden;
 }
 .slide-image{
   width:750rpx;
@@ -63,4 +63,8 @@
   font-size:30rpx;
   float:left;
   padding:10rpx;
+  padding-bottom:34rpx;
+}
+.recommend{
+  height:600rpx;
 }

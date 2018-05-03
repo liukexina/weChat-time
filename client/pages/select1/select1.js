@@ -50,6 +50,11 @@ Page({
       url: 'select1'
     })
   },
+  contant: function () {
+    wx.navigateTo({
+      url: '../details1/details1'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -27,7 +27,7 @@
 }
 .main-one{
   padding:40rpx;
-  height:650rpx;
+  height:600rpx;
 }
 .content-main button{
   height:70rpx;
@@ -39,7 +39,9 @@
   margin-left:60rpx;
 }
 .main-contant{
-  float:right;
   margin-right:40rpx;
   font-size:30rpx;
+}
+.content-user{
+  float:right;
 }

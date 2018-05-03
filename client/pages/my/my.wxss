@@ -54,6 +54,7 @@ page {
   float:right;
   padding-top:28rpx;
   padding-right:20rpx;
+  color:#bfbfbf;
 }
 .MY{
   background-color: white;

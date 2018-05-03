@@ -72,6 +72,11 @@ Page({
       url: '../details2/details2'
     })
   },
+  comment: function () {
+    wx.navigateTo({
+      url: '../comment/comment'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

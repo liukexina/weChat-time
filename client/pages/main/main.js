@@ -1,6 +1,7 @@
 // pages/main/main.js
 Page({
   data: {
+    img:'../image/timeo.jpg',
     nameList:[
       {
          name:'张三'
@@ -21,37 +22,32 @@ Page({
       },
       {
         name: 'rabbit'
-      },
-      {
-        name: 'monkey'
-      },
-      {
-        name: 'pig'
-      },
-      {
-        name: 'people'
       }
     ]
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  exchange: function () {
+    this.setData({
+      img:'../image/22.png'
+    })
+  },
+  updata: function () {
+    this.setData({
+      nameList:[
+        {
+          name: 'what'
+        },
+        {
+          name: 'dog'
+        },
+        {
+          name: 'cat'
+        },
+        {
+          name: 'rabbit'
+        }
+      ]
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

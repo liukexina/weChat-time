@@ -2,7 +2,7 @@
 <view class='content-img'>
   <image src='{{logo}}'></image>
   <view>
-    <text> 昵称：{{name}}</text>
+    <text> 昵称：{{user}}</text>
     <text>性别：{{sex}}</text>
     <text>年龄：{{age}}</text>
   </view>

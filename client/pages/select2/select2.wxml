@@ -25,7 +25,7 @@
         <view>
           <text class='content-user'>发起人：{{item.user}} </text>  
           <text class='content-collect'>收藏</text>     
-          <text class='content-details'>详情</text>
+          <text class='content-details' bindtap='contant'>详情</text>
         </view>
       </view> 
     </view>

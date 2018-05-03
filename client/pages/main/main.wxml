@@ -13,12 +13,14 @@
       <image src='../image/miao.jpg' class="slide-image"></image>
     </swiper-item>
 </swiper>
-<view class="main-time">时间推荐:</view>
-<image class='main-img1' src='../image/timeo.jpg'></image>
-<button class='main-but'>换一个</button>
+<view class='recommend'>
+  <view class="main-time">时间推荐:</view>
+  <image class='main-img1' src='{{img}}'></image>
+  <button class='main-but' bindtap='exchange'>换一个</button>
+</view>
 <view class='main-view1'>
   <view class='view1-1'>未按时参加活动人员:
-    <image src='../image/更新.png' class='gengxin'></image>
+    <image src='../image/更新.png' class='gengxin' bindtap='updata'></image>
   </view>
   <view class='noshare'>
     <view wx:for="{{nameList}}" wx:key="">
