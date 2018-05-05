@@ -1,3 +1,31 @@
+.doommview{
+  /* z-index: 3;  */
+  width: 100%;
+  position: absolute; 
+  white-space:nowrap;/* 防止向下换行*/
+  color:#bfbfbf;
+  display: flex;
+  top:-40rpx;
+  animation-iteration-count:2;
+  animation: first 4s linear forwards;
+  -webkit-animation-iteration-count:2;
+}
+.do-title{
+  margin-top:40rpx;
+  margin-right:10rpx;
+  font-size:30rpx;
+}
+/**定义从右边向左边的移动的动画**/
+@keyframes first{
+  from{left: 100%;}
+  to{left: -150%;}
+}
+.no-name{
+  margin-right:10rpx;
+}
+.swiper-img{
+  margin-top:40rpx;
+}
 .main-title{
   background: #3399FF;
   height:90rpx;
@@ -19,11 +47,12 @@
   margin-top:30rpx;
 }
 .main-img1{
-  height:380rpx;
+  height:390rpx;
   width:500rpx;
   display:flex;
   margin:0 auto;
   margin-top:40rpx;
+  margin-bottom:10rpx;
 }
 .main-but{
   background: #99CCFF;
@@ -61,10 +90,12 @@
 }
 .no-name{
   font-size:30rpx;
-  float:left;
-  padding:10rpx;
-  padding-bottom:34rpx;
+  padding-left:10rpx;
 }
 .recommend{
-  height:600rpx;
+  height:550rpx;
+}
+.main-view{
+  text-align: center;
+  color:#999;
 }

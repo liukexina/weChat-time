@@ -2,11 +2,10 @@
 <view class='save'>
  <button bindtap='contant'>保存</button>
 </view>
-
  <view class='upload-img'>
     <image src="{{tempFilePaths }}" mode="aspecFill"></image> 
     <!-- <image src="../image/timeo.jpg"></image> -->
-    <button bindtap="chooseimage">获取图片</button>   
+    <button bindtap="chooseimage">更改头像</button>   
  </view>
 <view class='data'>
   <view>昵称：<input type='date' class='content-input' placeholder='昵称' placeholder-style="font-size:28rpx; color:#bfbfbf"></input></view>

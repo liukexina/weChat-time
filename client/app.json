@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/main/main",
-    "pages/swiper0/swiper0",
+    "pages/select1/select1",
+    "pages/details2/details2",
     "pages/change/change",
     "pages/submitname/submitname",
     "pages/comment/comment",
@@ -15,12 +16,11 @@
     "pages/share/share",
     "pages/myaciton/myaction",
     "pages/collection/collection",
-    "pages/details2/details2",
     "pages/details1/details1",
     "pages/launch2/launch2",
     "pages/select2/select2",
     "pages/launch1/launch1",
-    "pages/select1/select1",
+    
     "pages/my/my",
     "pages/index/index",
     "pages/addCgi/addCgi",

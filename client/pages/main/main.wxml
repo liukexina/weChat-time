@@ -1,5 +1,12 @@
-<swiper indicator-dots="false"
-  autoplay="true" interval="2000" duration="500">
+<view class="doommview">
+    <text class='do-title'>未按时参加活动名单：</text>
+    <block wx:for="{{nameList}}" wx:key="id" >
+        <text class='no-name'>
+            {{item.name}}
+        </text>
+    </block>
+</view>
+<swiper indicator-dots="false" autoplay="true" interval="2000" duration="500" class='swiper-img'>
     <swiper-item>
       <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg' class="slide-image"></image>
     </swiper-item>
@@ -12,19 +19,12 @@
     <swiper-item>
       <image src='../image/miao.jpg' class="slide-image"></image>
     </swiper-item>
-</swiper>
+</swiper>  
 <view class='recommend'>
   <view class="main-time">时间推荐:</view>
-  <image class='main-img1' src='{{img}}'></image>
+  <image class='main-img1' src='{{logoList[num].vol_logo}}'></image>
+  <view class='main-view'>
+    {{logoList[num].vol_title}}
+  </view>
   <button class='main-but' bindtap='exchange'>换一个</button>
-</view>
-<view class='main-view1'>
-  <view class='view1-1'>未按时参加活动人员:
-    <image src='../image/更新.png' class='gengxin' bindtap='updata'></image>
-  </view>
-  <view class='noshare'>
-    <view wx:for="{{nameList}}" wx:key="">
-    <view class='no-name'>{{item.name}}</view>
-    </view>
-  </view>
 </view>

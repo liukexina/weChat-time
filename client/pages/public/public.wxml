@@ -20,14 +20,14 @@
  </view>
 <view class='share-eg'>
    <view wx:for="{{List}}" class='share' wx:key="">   
-    <image src='{{item.logo}}' class='share-logo'></image>
+    <image src='../{{item.act_logo}}' class='share-logo'></image>
     <view class='share-content'>
         <view class='first'>
-          <text class='content-title'>{{item.title}}</text>
-          <text class='content-size'>{{item.size}}</text>
+          <text class='content-title'>{{item.act_title}}</text>
+          <text class='content-size'>{{item.act_size}}</text>
         </view>
         <view >
-          <text>时间：{{item.time}}</text>
+          <text >时间：<text class='content-time'> {{item.act_time_1}}----{{item.act_time_2}}</text></text>
         </view> 
         <view>
           <text class='content-user'>发起人：{{item.user}} </text>    

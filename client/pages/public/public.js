@@ -5,50 +5,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-    List: [
-      {
-        logo: '../image/11.jpg',
-        time: '2018-3-14 13:00-14:00',
-        title: "K歌",
-        size: "哈尔滨",
-        user: "张三",
-      }, {
-        logo: '../image/22.png',
-        time: '2018-3-15 14:00-15:00',
-        title: "爬山",
-        size: "帽儿山",
-        user: "李四",
-      }, {
-        logo: '../image/timeo.jpg',
-        time: '2018-3-16 11:00-14:00',
-        title: "学习",
-        size: "黑龙江大学图书馆",
-        user: "monkey",
-      }, {
-        logo: '../image/miao.jpg',
-        time: '2018-3-20 9:00-14:00',
-        title: "逛街",
-        size: "中央大街",
-        user: "pig",
-      }, {
-        logo: '../image/11.jpg',
-        time: '2018-3-14 13:00-14:00',
-        title: "K歌",
-        size: "哈尔滨",
-        user: "张三",
-      }, {
-        logo: '../image/11.jpg',
-        time: '2018-3-14 13:00-14:00',
-        title: "K歌",
-        size: "哈尔滨",
-        user: "张三",
-      }
-    ]
-  },
+    List: []
+   },
   select: function () {
     wx.navigateTo({
-      url: '../select1/select1'
-    })
+       url: '../select1/select1'
+     })
   },
   launch: function () {
     wx.navigateTo({
@@ -64,7 +26,17 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+      wx.request({
+        url: 'https://fqqnxvh6.qcloud.la/../publics/get_public_list',
+        header: {
+          'content-type': 'application/json' // 默认值
+        },
+        success: res => {
+          this.setData({
+            List: res.data
+          })
+        }
+      })
   },
 
   /**

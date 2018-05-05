@@ -24,7 +24,7 @@ $config = [
         'host' => 'localhost',
         'port' => 3306,
         'user' => 'root',
-        'db'   => 'cAuth',
+        'db'   => 'sharetime',
         'pass' => 'wx1a7f9d7fc33ccea5',
         'char' => 'utf8mb4'
     ],

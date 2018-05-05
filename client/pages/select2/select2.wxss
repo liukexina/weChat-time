@@ -1,19 +1,22 @@
 /* pages/select2/select2.wxss */
 .select{
   border-bottom:1px solid #000;
-  height:90rpx;
+  height: 70rpx;
 }
 .select-but{
   background-color: #99ccff;
-  width:200rpx;
+  width:150rpx;
+  height: 50rpx;
+  line-height: 50rpx;
   font-size:28rpx;
   color:white;
   font-weight: 700;
-  margin-left:40rpx;
-  margin-top:15rpx;
+  float:right;
+  margin-right:40rpx;
+  margin-top:10rpx;
 }
 .select-content{
-   border-bottom:1px solid #000;
+   border-top:1px solid #000;
 }
 .select-content view{
   display:flex;

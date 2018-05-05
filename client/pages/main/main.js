@@ -1,7 +1,7 @@
 // pages/main/main.js
 Page({
   data: {
-    img:'../image/timeo.jpg',
+    num:0,
     nameList:[
       {
          name:'张三'
@@ -13,46 +13,39 @@ Page({
         name: 'hello'
       },{
         name: 'what'
-      }, 
-      {
+      },{
         name: 'dog'
-      },
-      {
+      },{
         name: 'cat'
-      },
-      {
+      },{
         name: 'rabbit'
       }
-    ]
+    ],
+    logoList:[]
   },
   exchange: function () {
+    var aa = this.data.num;
+    var cc = this.data.nameList.lenght;
     this.setData({
-      img:'../image/22.png'
-    })
-  },
-  updata: function () {
-    this.setData({
-      nameList:[
-        {
-          name: 'what'
-        },
-        {
-          name: 'dog'
-        },
-        {
-          name: 'cat'
-        },
-        {
-          name: 'rabbit'
-        }
-      ]
+        num: aa + 1
     })
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    wx.request({
+      url: 'https://fqqnxvh6.qcloud.la/../recommend/get_public_list',
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success: res => {
+        console.log(res.data)
+        this.setData({
+          logoList: res.data
+        })
+      }
+    })
   },
 
   /**

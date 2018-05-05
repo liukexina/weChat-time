@@ -78,3 +78,6 @@ page {
   float:right;
   margin-right:40rpx;
 }
+.content-time{
+  font-size:20rpx;
+}

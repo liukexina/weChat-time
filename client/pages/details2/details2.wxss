@@ -1,4 +1,5 @@
-/* pages/details2/details2.wxss */.content-img{
+/* pages/details2/details2.wxss */
+/* .content-img{
   height:340rpx;
   display: flex;
   border-bottom:1px solid #000;
@@ -44,4 +45,85 @@
 }
 .content-user{
   float:right;
+}
+.list {
+  margin-top:10rpx;
+  margin-left:10rpx;
+  height:30rpx;
+  font-size:32rpx;
+}
+.list text{
+  margin-top:8rpx;
+  border-bottom:1px solid #f2f2f2;
+  font-size:30rpx;
+}
+.list view image{
+  height: 40rpx;
+  width:40rpx;
+} */
+.content-img{
+  height:340rpx;
+  display: flex;
+  border-bottom:1px solid #000;
+}
+.content-img image{
+  height: 300rpx;
+  width:310rpx;
+  margin:17rpx;
+  margin-left:40rpx;
+  display: block;
+}
+.content-img view{
+  padding-top:40rpx;
+  padding-left:10rpx;
+  font-size:35rpx;
+}
+.content-img text{
+  display: block;
+  padding:20rpx;
+}
+
+.content-main view text{
+  display: block;
+  font-size:30rpx;
+  padding:10rpx;
+}
+.main-one{
+  padding:40rpx;
+  height:600rpx;
+}
+.content-main button{
+  height:70rpx;
+  width:200rpx;
+  font-size:34rpx;
+  line-height: 70rpx;
+  background-color: #99CCFF;
+  float:left;
+  margin-left:60rpx;
+}
+.main-contant{
+  margin-right:20rpx;
+  font-size:30rpx;
+}
+.content-user{
+  float:right;
+  margin-top: 30rpx;
+}
+.content-name{
+  display: flex;
+  padding-left:40rpx;
+  padding-top:10rpx;
+  border-bottom:1px solid #f2f2f2;
+  height: 50rpx;
+}
+.name{
+  font-size:34rpx;
+  margin-left: 15rpx; 
+}
+.content-logos{
+  width:40rpx;
+  height: 40rpx;
+}
+.conten-butt{
+  margin-top: 70rpx;
 }
