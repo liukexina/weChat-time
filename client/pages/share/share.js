@@ -6,7 +6,7 @@ Page({
    */
   data: {
     List:[
-      {
+     /** {
         logo: '../image/timeo.jpg',
         time:'2018-3-14 13:00-14:00',
         title:"市图书馆",
@@ -54,7 +54,7 @@ Page({
         numsur: '10',
         size: "哈尔滨",
         user: "张三",
-      }
+      }*/
     ]
   },
   select: function () {
@@ -81,9 +81,19 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    wx.request({
+      url: 'https://fqqnxvh6.qcloud.la/../recommend/get_rec_list',
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success: res => {
+        console.log(res.data)
+        this.setData({
+          List: res.data
+        })
+      }
+    })
   },
-
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

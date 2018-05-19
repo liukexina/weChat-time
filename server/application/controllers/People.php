@@ -1,11 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Publics extends CI_Controller {
-  public function get_public_list()
+class People extends CI_Controller {
+  public function get_people_list()
     {
-        $this -> load -> model('public_model');
-        $result = $this -> public_model -> get_list();
+        $this -> load -> model('people_model');
+        $result = $this -> people_model -> get_list();
         echo json_encode($result);
     }
 }

@@ -1,5 +1,4 @@
 .doommview{
-  /* z-index: 3;  */
   width: 100%;
   position: absolute; 
   white-space:nowrap;/* 防止向下换行*/
@@ -7,8 +6,8 @@
   display: flex;
   top:-40rpx;
   animation-iteration-count:2;
-  animation: first 4s linear forwards;
-  -webkit-animation-iteration-count:2;
+  animation: first 6s linear forwards;
+  -webkit-animation-iteration-count:infinite;
 }
 .do-title{
   margin-top:40rpx;

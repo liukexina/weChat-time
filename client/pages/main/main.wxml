@@ -22,8 +22,8 @@
 </swiper>  
 <view class='recommend'>
   <view class="main-time">时间推荐:</view>
-  <image class='main-img1' src='{{logoList[num].vol_logo}}'></image>
-  <view class='main-view'>
+  <image class='main-img1' src='{{logoList[num].vol_logo}}' bindtap='contant'></image>
+  <view class='main-view' bindtap='contant'>
     {{logoList[num].vol_title}}
   </view>
   <button class='main-but' bindtap='exchange'>换一个</button>

@@ -30,7 +30,7 @@
           <text >时间：<text class='content-time'> {{item.act_time_1}}----{{item.act_time_2}}</text></text>
         </view> 
         <view>
-          <text class='content-user'>发起人：{{item.user}} </text>    
+          <text class='content-user'>发起人：{{item.name}} </text>    
           <text class='content-collect'>收藏</text>
           <text class='content-details' bindtap='contant'>详情</text>
        </view>

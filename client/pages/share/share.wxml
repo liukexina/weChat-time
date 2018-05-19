@@ -19,22 +19,22 @@
  </view>
 <view class='share-eg'>
    <view wx:for="{{List}}" class='share' wx:key="">   
-    <image src='{{item.logo}}' class='share-logo'></image>
+    <image src='{{item.vol_logo}}' class='share-logo'></image>
     <view class='share-content'>
         <view class='first'>
-          <text class='content-title'>{{item.title}}</text>
-          <text class='content-size'>{{item.size}}</text>
+          <text class='content-title'>{{item.vol_title}}</text>
+          <text class='content-size'>{{item.vol_site}}</text>
           <text class='content-comment' bindtap='comment'>评论</text>
         </view>
         <view >
-          <text>时间：{{item.time}}</text>
-          </view> 
+          <text >时间：<text class='content-time'> {{item.vol_time_1}}----{{item.vol_time_2}}</text></text>
+        </view> 
         <view>
-          <text class='content-numall'>所需人数：{{item.numall}}</text>
+          <text class='content-numall'>所需人数：{{item.vol_num}}</text>
           <text class='content-numsur'>剩余名额：{{item.numsur}}</text>
         </view>
         <view>
-          <text class='content-user'>发起人：{{item.user}} </text>  
+          <text class='content-user'>发起学院：{{item.vol_college}} </text>  
           <text class='content-collect'>收藏</text>     
           <text class='content-details'  bindtap='contant'>详情</text>
         </view>

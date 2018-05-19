@@ -82,3 +82,6 @@ page {
   margin-right:10rpx;
   color:#707070;
 }
+.content-time{
+  font-size:20rpx;
+}

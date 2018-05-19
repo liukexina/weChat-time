@@ -26,17 +26,18 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-      wx.request({
-        url: 'https://fqqnxvh6.qcloud.la/../publics/get_public_list',
-        header: {
-          'content-type': 'application/json' // 默认值
-        },
-        success: res => {
-          this.setData({
-            List: res.data
-          })
-        }
-      })
+    wx.request({
+      url: 'https://fqqnxvh6.qcloud.la/../share/get_share_list',
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success: res => {
+        console.log(res.data)
+        this.setData({
+          List: res.data
+        })
+      }
+    })
   },
 
   /**

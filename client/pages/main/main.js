@@ -30,17 +30,22 @@ Page({
         num: aa + 1
     })
   },
+  contant: function () {
+    wx.navigateTo({
+      url: '../details2/details2'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
     wx.request({
-      url: 'https://fqqnxvh6.qcloud.la/../recommend/get_public_list',
+      url: 'https://fqqnxvh6.qcloud.la/../recommend/get_rec_list',
       header: {
         'content-type': 'application/json' // 默认值
       },
       success: res => {
-        console.log(res.data)
+        // console.log(res.data)
         this.setData({
           logoList: res.data
         })
